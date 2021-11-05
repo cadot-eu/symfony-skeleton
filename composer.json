@@ -1,4 +1,5 @@
 {
+  "name": "cadot.info/symfony-skeleton-jquery-test",
   "type": "template",
   "license": "MIT",
   "description": "A skeleton for symfony 5",
@@ -7,7 +8,7 @@
     "skeleton",
     "cadot.info"
   ],
-  "homepage": "https://github.com/programster/Docker-Slim3-PHP-WebApp-Template",
+  "homepage": "https://github.com/cadot-info/symfony-skeleton.git",
   "minimum-stability": "stable",
   "prefer-stable": true,
   "repositories": [
@@ -20,7 +21,6 @@
     "php": ">=7.2.5",
     "ext-ctype": "*",
     "ext-iconv": "*",
-    "boring-dragon/editorjs-simple-html-parser": "dev-middle",
     "composer/package-versions-deprecated": "1.11.99.2",
     "corley/maintenance-bundle": "^0.4.0",
     "doctrine/annotations": "^1.0",
