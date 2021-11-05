@@ -13,6 +13,16 @@
 - php mimeicon
 - phpunit
 - zenstruck browser for phpunit
+- cadot.info test tool
+- maker of patches for composer
+- ckeditor bundle
+- captcha
+- to pdf
+- stripe
+- sitemap generator
+- doctrine extension
+- faker
+
 
 ## Package
 
