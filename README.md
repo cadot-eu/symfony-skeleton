@@ -1,0 +1,2 @@
+# infos
+# symfony-skeleton
