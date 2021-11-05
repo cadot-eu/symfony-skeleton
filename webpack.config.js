@@ -20,19 +20,6 @@ Encore
    * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
    */
   .addEntry("app", "./assets/app.js")
-  .addEntry("editorjs", "./assets/jscrudmick/editorjs.js")
-  .addEntry("bigpicture", "./assets/jscrudmick/bigpicture.js")
-  .addEntry("autocomplete", "./assets/jscrudmick/autocomplete.js")
-  .addEntry("upload", "./assets/jscrudmick/upload.js")
-  .addEntry("collection", "./assets/jscrudmick/collection.js")
-  .addEntry("sortable", "./assets/jscrudmick/sortable.js")
-  .addEntry("panier", "./assets/jscrudmick/panier.js")
-  .addEntry("favori", "./assets/jscrudmick/favori.js")
-  .addEntry("splide", "./assets/jscrudmick/splide.js")
-  .addEntry("login", "./assets/jscrudmick/login.js")
-  .addEntry("popover", "./assets/jscrudmick/popover.js")
-  .addEntry("tools", "./assets/jscrudmick/tools.js")
-  .addEntry("favori_refresh", "./assets/jscrudmick/favori_refresh.js")
 
   // enables the Symfony UX Stimulus bridge (used in assets/bootstrap.js)
   .enableStimulusBridge("./assets/controllers.json")
