@@ -38,19 +38,19 @@
 ## Package
 
 - webpack
-- prettier
+- prettier for format in vscode
 - fortawesome
 - popper
-- splide for carousel
+- splide for carousel (https://splidejs.com/)
 - autocomplete
-- library with childrens for collection (patche for alix)
-- bigpicture for zoom on image
-- bootstrap
-- jquery et jquery-ui
-- inputmask
+- library with childrens for collection (patch by Dot3 for alix) (https://github.com/cadot-info/symfony-collection)
+- bigpicture for zoom on image (https://github.com/henrygd/bigpicture)
+- bootstrap 4
+- jquery et jquery-ui (i make other skeleton with umbrella (https://github.com/franciscop/umbrella) )
+- inputmask (https://github.com/RobinHerbots/Inputmask)
 - ckeditor
-- moveable
-- animate
+- moveable (https://github.com/daybrush/moveable)
+- animate (https://animate.style)
 
 # install
 
