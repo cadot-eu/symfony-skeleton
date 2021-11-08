@@ -4,8 +4,8 @@
 
 `composer create cadot.info/symfony-skeleton-jquery-test <name directory optional>`
 
-- go to the directory
-- modify the docker-compose
+- run or restart the skeleton by `sh run.sh` tips: he say the number of the port
+- see the website by http://localhost:port
 
   `yarn install -f`
 
@@ -18,7 +18,6 @@
   - phpunit [wrting tests](https://phpunit.readthedocs.io/en/stable/writing-tests-for-phpunit.html)
   - panther (https://github.com/symfony/panther)
   - calls simplifiy by (https://github.com/zenstruck/browser)
-  - cadot.info Tools for get links of page (https://packagist.org/packages/cadot.info/symfony-testing-tools)
 - sentry for Symfony (https://docs.sentry.io/platforms/php/guides/symfony/)
 - image-resize (https://github.com/gumlet/php-image-resize)
 - mode maintenance (https://github.com/matatirosolutions/CorleyMaintenanceBundle)
@@ -34,6 +33,11 @@
 - sitemap generator by presta (https://github.com/prestaconcept/PrestaSitemapBundle#documentation)
 - doctrine extension by bundle (https://symfony.com/doc/master/bundles/StofDoctrineExtensionsBundle/index.html)
 - faker (https://fakerphp.github.io)
+- cadot.info
+  - crud: for create beautiful CRUD (https://github.com/cadot-info/crudbundle)
+  - Entity: functions for entities, reorder... (https://github.com/cadot-info/EntityBundle)
+  - File: functions on file, remove recursively, move, sanitize, clean... (https://github.com/cadot-info/FileBundle)
+  - Tools for get links of page (https://packagist.org/packages/cadot.info/symfony-testing-tools)
 
 ## Package
 
