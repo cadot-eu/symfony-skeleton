@@ -1,8 +1,8 @@
 version: '3'
 services:
-  $PWD:
+  test:
     image: cadotinfo/symfony5
-    container_name: $PWD
+    container_name: test
     volumes:
       - .:/app
     networks:
