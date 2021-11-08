@@ -1,8 +1,8 @@
 version: '3'
 services:
-  symfony-skeleton-jquery-test:
+  $PWD:
     image: cadotinfo/symfony5
-    container_name: symfony-skeleton-jquery-test
+    container_name: $PWD
     volumes:
       - .:/app
     networks:
