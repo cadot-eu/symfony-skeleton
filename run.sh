@@ -1,3 +1,5 @@
+# run docker compose and change DIR in docker-compose by curre,t directory
+
 result=${PWD##*/}
 docker-compose down --remove-orphans
 sed -i 's?{DIR}?'$result'?' docker-compose.yml
