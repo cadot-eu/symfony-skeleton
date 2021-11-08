@@ -6,7 +6,11 @@
   "keywords": [
     "symfony5",
     "skeleton",
-    "cadot.info"
+    "cadot.info",
+"webpack",
+"encore",
+"faker",
+"phpunit","liip","doctrine","patches","pdf","sentry","stripe","ckeditor"
   ],
   "homepage": "https://github.com/cadot-info/symfony-skeleton.git",
   "minimum-stability": "stable",
@@ -113,9 +117,7 @@
   },
   "scripts": {
     "auto-scripts": {
-      "cache:clear": "symfony-cmd",
-      "assets:install %PUBLIC_DIR%": "symfony-cmd",
-      "ckeditor:install": "symfony-cmd"
+      "cache:clear": "symfony-cmd"
     },
     "post-install-cmd": [
       "@auto-scripts"
