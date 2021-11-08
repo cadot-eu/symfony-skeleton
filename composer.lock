@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc168e2c1f70aab4926073c56b78f261",
+    "content-hash": "0317b5eca39f6242e77d63168e25f886",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -259,6 +259,63 @@
                 "source": "https://github.com/cadot-info/FileBundle/tree/v1.0.4"
             },
             "time": "2021-11-07T19:16:50+00:00"
+        },
+        {
+            "name": "cadot.info/stringsbundle",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cadot-info/StringsBundle.git",
+                "reference": "aefbc0e76ce4bb8d2f00daaccf9df2ade4c83c3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cadot-info/StringsBundle/zipball/aefbc0e76ce4bb8d2f00daaccf9df2ade4c83c3d",
+                "reference": "aefbc0e76ce4bb8d2f00daaccf9df2ade4c83c3d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cadotinfo\\StringBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "mit"
+            ],
+            "authors": [
+                {
+                    "name": "cadot.info",
+                    "email": "composer@cadot.info"
+                }
+            ],
+            "description": "Functions on string for Symfony 5",
+            "homepage": "https://github.com/cadot-info/tools#readme",
+            "keywords": [
+                "bundle",
+                "cadot.info",
+                "clean",
+                "copy",
+                "delete",
+                "extension",
+                "file",
+                "move",
+                "remove",
+                "sanitize",
+                "service",
+                "spaces",
+                "string",
+                "symfony"
+            ],
+            "support": {
+                "issues": "https://github.com/cadot-info/StringsBundle/issues",
+                "source": "https://github.com/cadot-info/StringsBundle/tree/v1.0.1"
+            },
+            "time": "2021-11-08T13:41:28+00:00"
         },
         {
             "name": "cadot.info/symfony-testing-tools",

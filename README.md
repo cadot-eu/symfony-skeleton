@@ -37,7 +37,8 @@
   - crud: for create beautiful CRUD (https://github.com/cadot-info/crudbundle)
   - Entity: functions for entities, reorder... (https://github.com/cadot-info/EntityBundle)
   - File: functions on file, remove recursively, move, sanitize, clean... (https://github.com/cadot-info/FileBundle)
-  - Tools for get links of page (https://packagist.org/packages/cadot.info/symfony-testing-tools)
+  - Tools: for get links of page (https://packagist.org/packages/cadot.info/symfony-testing-tools)
+  - Strings: for manipumate strings
 
 ## Package
 

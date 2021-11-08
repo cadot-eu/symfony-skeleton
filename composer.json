@@ -28,6 +28,7 @@
     "cadot.info/crudbundle": "^1.0",
     "cadot.info/entitybundle": "^1.0",
     "cadot.info/filebundle": "^1.0",
+    "cadot.info/stringsbundle": "^1.0",
     "cadot.info/symfony-testing-tools": "^3.0",
     "composer/package-versions-deprecated": "1.11.99.2",
     "corley/maintenance-bundle": "^0.4.0",

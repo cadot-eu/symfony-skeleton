@@ -17,6 +17,9 @@
     "cadot.info/filebundle": {
         "version": "v1.0.4"
     },
+    "cadot.info/stringsbundle": {
+        "version": "v1.0.1"
+    },
     "cadot.info/symfony-testing-tools": {
         "version": "v3.0.5"
     },
