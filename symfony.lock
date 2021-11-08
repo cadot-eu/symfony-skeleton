@@ -8,6 +8,15 @@
     "brick/math": {
         "version": "0.9.3"
     },
+    "cadot.info/crudbundle": {
+        "version": "v1.0.2"
+    },
+    "cadot.info/entitybundle": {
+        "version": "v1.0.2"
+    },
+    "cadot.info/filebundle": {
+        "version": "v1.0.4"
+    },
     "cadot.info/symfony-testing-tools": {
         "version": "v3.0.5"
     },

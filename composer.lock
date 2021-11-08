@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f70ae1241468c7a06996a45ab6b1d2f6",
+    "content-hash": "bc168e2c1f70aab4926073c56b78f261",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -114,6 +114,151 @@
                 }
             ],
             "time": "2021-08-15T20:50:18+00:00"
+        },
+        {
+            "name": "cadot.info/crudbundle",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cadot-info/crudbundle.git",
+                "reference": "7e8e2910cafb03ec60d66f61ea011954e4108059"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cadot-info/crudbundle/zipball/7e8e2910cafb03ec60d66f61ea011954e4108059",
+                "reference": "7e8e2910cafb03ec60d66f61ea011954e4108059",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cadotinfo\\CrudBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "cadot.info",
+                    "email": "composer@cadot.info"
+                }
+            ],
+            "description": "Beautiful CRUD from entities for Symfony 5",
+            "homepage": "https://github.com/cadot-info/tools#readme",
+            "support": {
+                "issues": "https://github.com/cadot-info/crudbundle/issues",
+                "source": "https://github.com/cadot-info/crudbundle/tree/v1.0.2"
+            },
+            "time": "2021-11-07T18:22:51+00:00"
+        },
+        {
+            "name": "cadot.info/entitybundle",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cadot-info/EntityBundle.git",
+                "reference": "39781a6042aff3d39e8abb9290c12d4d42cf0bc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cadot-info/EntityBundle/zipball/39781a6042aff3d39e8abb9290c12d4d42cf0bc5",
+                "reference": "39781a6042aff3d39e8abb9290c12d4d42cf0bc5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cadotinfo\\EntityBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "cadot.info",
+                    "email": "composer@cadot.info"
+                }
+            ],
+            "description": "Functions on files for Symfony 5",
+            "homepage": "https://github.com/cadot-info/EntityBundle#readme",
+            "keywords": [
+                "cadot.info",
+                "entity",
+                "reorder",
+                "service",
+                "symfony"
+            ],
+            "support": {
+                "issues": "https://github.com/cadot-info/EntityBundle/issues",
+                "source": "https://github.com/cadot-info/EntityBundle/tree/v1.0.2"
+            },
+            "time": "2021-11-08T10:20:21+00:00"
+        },
+        {
+            "name": "cadot.info/filebundle",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cadot-info/FileBundle.git",
+                "reference": "8b71d6378835681f2244f163058dd395703e8ede"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cadot-info/FileBundle/zipball/8b71d6378835681f2244f163058dd395703e8ede",
+                "reference": "8b71d6378835681f2244f163058dd395703e8ede",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cadotinfo\\FileBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "cadot.info",
+                    "email": "composer@cadot.info"
+                }
+            ],
+            "description": "Functions on files for Symfony 5",
+            "homepage": "https://github.com/cadot-info/tools#readme",
+            "keywords": [
+                "bundle",
+                "cadot.info",
+                "clean",
+                "copy",
+                "delete",
+                "extension",
+                "file",
+                "move",
+                "remove",
+                "sanitize",
+                "service",
+                "spaces",
+                "symfony"
+            ],
+            "support": {
+                "issues": "https://github.com/cadot-info/FileBundle/issues",
+                "source": "https://github.com/cadot-info/FileBundle/tree/v1.0.4"
+            },
+            "time": "2021-11-07T19:16:50+00:00"
         },
         {
             "name": "cadot.info/symfony-testing-tools",

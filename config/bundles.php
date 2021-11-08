@@ -21,4 +21,7 @@ return [
     Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
     FOS\CKEditorBundle\FOSCKEditorBundle::class => ['all' => true],
     Presta\SitemapBundle\PrestaSitemapBundle::class => ['all' => true],
+    Cadotinfo\FileBundle\CadotinfoFileBundle::class => ['all' => true],
+    Cadotinfo\EntityBundle\CadotinfoEntityBundle::class => ['all' => true],
+    Cadotinfo\CrudBundle\CadotinfoCrudBundle::class => ['all' => true],
 ];
