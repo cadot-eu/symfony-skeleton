@@ -46,6 +46,7 @@
     "animate.css": "^4.1.1",
     "bigpicture": "^2.5.3",
     "bootstrap": "^5.1.0",
+    "cadot-info-basket": "^1.0.25",
     "cadot-info-like": "^2.0.2",
     "ckeditor": "^4.12.1",
     "editorjs-inline-image": "^0.1.4",

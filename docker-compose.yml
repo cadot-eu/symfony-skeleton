@@ -1,8 +1,8 @@
 version: '3'
 services:
-  {DIR}:
+  symfony-skeleton-jquery-test:
     image: cadotinfo/symfony5
-    container_name: {DIR}
+    container_name: symfony-skeleton-jquery-test
     volumes:
       - .:/app
     networks:
