@@ -1,8 +1,8 @@
 version: '3'
 services:
-  symfony-skeleton-jquery-test:
+  test2:
     image: cadotinfo/symfony5
-    container_name: symfony-skeleton-jquery-test
+    container_name: test2
     volumes:
       - .:/app
     networks:
@@ -10,8 +10,7 @@ services:
     restart: always
     ports:
       - 80
-
-
+ 
 networks:
   web:
     external: true
