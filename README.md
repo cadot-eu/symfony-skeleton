@@ -56,6 +56,7 @@
 - ckeditor
 - moveable (https://github.com/daybrush/moveable)
 - animate (https://animate.style)
+- grid (https://github.com/haltu/muuri)
 - cadot.info
   - like: for favorites (https://github.com/cadot-info/like)
   - basket: for basket (https://github.com/cadot-info/basket)
