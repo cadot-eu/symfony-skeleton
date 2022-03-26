@@ -46,6 +46,7 @@
     "muuri": "^0.9.5",
     "popper.js": "^1.16.1",
     "postcss-loader": "^6.2.1",
+    "rfs": "^9.0.6",
     "sass": "^1.38.0",
     "sass-loader": "^12.1.0"
   },

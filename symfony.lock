@@ -8,26 +8,14 @@
     "brick/math": {
         "version": "0.9.3"
     },
-    "cadot.info/crudbundle": {
-        "version": "v1.0.2"
-    },
-    "cadot.info/entitybundle": {
-        "version": "v1.0.2"
-    },
-    "cadot.info/filebundle": {
-        "version": "v1.0.4"
-    },
-    "cadot.info/stringsbundle": {
-        "version": "v1.0.1"
-    },
-    "cadot.info/symfony-testing-tools": {
-        "version": "v3.0.5"
+    "cadot.eu/twigbundle": {
+        "version": "v4.0.30"
     },
     "clue/stream-filter": {
         "version": "v1.5.0"
     },
-    "corley/maintenance-bundle": {
-        "version": "0.4"
+    "composer/package-versions-deprecated": {
+        "version": "1.11.99.2"
     },
     "cweagans/composer-patches": {
         "version": "1.7.1"
@@ -138,18 +126,6 @@
     },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
-    },
-    "friendsofsymfony/ckeditor-bundle": {
-        "version": "2.3",
-        "recipe": {
-            "repo": "github.com/symfony/recipes-contrib",
-            "branch": "master",
-            "version": "2.0",
-            "ref": "f5ad42002183a6881962683e6d84bbb25cdfce5d"
-        },
-        "files": [
-            "config/packages/fos_ckeditor.yaml"
-        ]
     },
     "gedmo/doctrine-extensions": {
         "version": "v3.1.0"
@@ -295,9 +271,6 @@
             "tests/bootstrap.php"
         ]
     },
-    "phpunit/phpunit-selenium": {
-        "version": "9.0.0"
-    },
     "presta/sitemap-bundle": {
         "version": "v3.1.0"
     },
@@ -412,6 +385,9 @@
             "config/packages/sentry.yaml"
         ]
     },
+    "spatie/schema-org": {
+        "version": "3.10.0"
+    },
     "stof/doctrine-extensions-bundle": {
         "version": "1.6",
         "recipe": {
@@ -426,6 +402,9 @@
     },
     "stripe/stripe-php": {
         "version": "v7.100.0"
+    },
+    "symfony/amqp-messenger": {
+        "version": "v5.4.5"
     },
     "symfony/asset": {
         "version": "v5.2.12"
@@ -477,6 +456,9 @@
     },
     "symfony/doctrine-bridge": {
         "version": "v5.3.8"
+    },
+    "symfony/doctrine-messenger": {
+        "version": "v5.4.3"
     },
     "symfony/dom-crawler": {
         "version": "v5.3.7"
@@ -572,6 +554,18 @@
             "version": "1.0",
             "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
         }
+    },
+    "symfony/messenger": {
+        "version": "5.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "4.3",
+            "ref": "25e3c964d3aee480b3acc3114ffb7940c89edfed"
+        },
+        "files": [
+            "config/packages/messenger.yaml"
+        ]
     },
     "symfony/mime": {
         "version": "v5.2.12"
@@ -678,6 +672,9 @@
     "symfony/psr-http-message-bridge": {
         "version": "v2.1.2"
     },
+    "symfony/redis-messenger": {
+        "version": "v5.4.6"
+    },
     "symfony/routing": {
         "version": "5.3",
         "recipe": {
@@ -690,6 +687,9 @@
             "config/routes.yaml",
             "config/packages/routing.yaml"
         ]
+    },
+    "symfony/runtime": {
+        "version": "v5.4.5"
     },
     "symfony/security-bundle": {
         "version": "5.2",
@@ -866,6 +866,9 @@
     "wgenial/php-mimetyper": {
         "version": "2.0.0"
     },
+    "woodsandwalker/faker-picture": {
+        "version": "v1.0.0"
+    },
     "zenstruck/assert": {
         "version": "v1.0.0"
     },
@@ -874,5 +877,17 @@
     },
     "zenstruck/callback": {
         "version": "v1.4.1"
+    },
+    "zenstruck/foundry": {
+        "version": "1.17",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.10",
+            "ref": "934cdd918703a7fcfc3ef91723a2eac42a0f7690"
+        },
+        "files": [
+            "config/packages/zenstruck_foundry.yaml"
+        ]
     }
 }

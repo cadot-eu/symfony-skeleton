@@ -1,5 +1,5 @@
 import BuildEditor from '/assets/ckeditor/build/ckeditor';
-import "../styles/template.scss" //call by {{ encore_entry_link_tags('template') }}
+//import "../styles/template.scss" //call by {{ encore_entry_link_tags('template') }}
 
 /* ------------------ mise à jour du max des boutons protos ----------------- */
 $('form fieldset').each(function (num) {

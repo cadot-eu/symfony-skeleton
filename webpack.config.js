@@ -38,8 +38,8 @@ if (Encore.isProduction() == true) {
 /* -------------------------------------------------------------------------- */
 else {
   Encore
-    .addEntry("template", "./assets/tempjs/template.js")
-    .addEntry("temppage", "./assets/tempjs/temppage.js")
+    .addEntry("template", "./assets/js/template.js")
+    .addEntry("temppage", "./assets/js/temppage.js")
 }
 /* -------------------------------------------------------------------------- */
 /*                                 dev et prod                                */
