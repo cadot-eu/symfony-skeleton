@@ -1,0 +1,17 @@
+//définis splide img sur toute la largeur
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+//ajoute la croix rouge pour les champs requireds
+.required:after {
+  position: absolute;
+  content: "*";
+  color: red;
+}
+//ajoute le module ombre à bootstrap
+$enable-shadows: true;
+.svg-inline--fa {
+  font-size: 1rem;
+  -webkit-text-stroke: 1px white;
+}

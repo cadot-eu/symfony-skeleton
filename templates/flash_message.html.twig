@@ -1,0 +1,21 @@
+{% if app.flashes is defined %}
+	<div class="container-fluid position-absolute" id="flash_message" style=" margin-top:10px;position: fixed;z-index:300;">
+		<div class="row " id="error-container">
+			<div class="col-8 offset-2">
+				{% for message in app.flashes('notice') %}
+					<div class="alert alert-info" role="alert">
+						{{ message }}
+					</div>
+				{% endfor %}
+
+				{% for label, messages in app.flashes(['warning', 'error']) %}
+					{% for message in messages %}
+						<div class="alert alert-{{ label=='error' ?  'error': label}}" role="alert">
+							{{ message }}
+						</div>
+					{% endfor %}
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+{% endif %}

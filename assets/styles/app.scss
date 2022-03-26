@@ -1,0 +1,160 @@
+/* -------------------------------------------------------------------------- */
+/*                                    font                                    */
+/* -------------------------------------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lora:regular,500,600,700,italic,500italic,600italic,700italic);
+@import "~rfs/scss";
+$enable-responsive-font-sizes: true;
+
+/* -------------------------------------------------------------------------- */
+/*                                   colors                                   */
+/* -------------------------------------------------------------------------- */
+$blanc: #f3eede; //	rgb(243, 238, 222)
+$vert: #6e9755; //	rgb(134, 157, 80)
+$marron: #62391e; //	rgb(128, 86, 65)
+$jaune: #f9f0e3; //	rgb(196, 188, 131)
+$noir: #212529;
+
+$primary: $vert;
+$secondary: $marron;
+$white: $blanc;
+
+.bg-jaune {
+  background-color: $jaune;
+}
+.text-jaune {
+  color: $jaune;
+}
+.bg-noir {
+  background-color: $noir;
+}
+.text-noir {
+  color: $noir;
+}
+$theme-colors: (
+  "primary": $vert,
+);
+$theme-colors: (
+  "primary": $vert,
+  "danger": #ff4136,
+);
+/* -------------------------------------------------------------------------- */
+/*                           Modification bootstrap                           */
+/* -------------------------------------------------------------------------- */
+$btn-padding-x-lg: 3rem;
+$btn-padding-y-lg: 1rem;
+@import "node_modules/bootstrap/scss/bootstrap";
+/* -------------------------------------------------------------------------- */
+/*                                    font                                    */
+/* -------------------------------------------------------------------------- */
+h1 {
+  font-family: Lora;
+  @include rfs(60px, font-size);
+}
+h2 {
+  text-transform: uppercase;
+  font-family: "Barlow Semi Condensed";
+  @include rfs(30px, font-size);
+  font-weight: 600;
+}
+h3 {
+}
+h4 {
+  text-transform: uppercase;
+  font-family: "Barlow Semi Condensed";
+  @include rfs(24px, font-size);
+  font-weight: 300;
+}
+h5 {
+  text-transform: uppercase;
+  font-family: "Barlow Semi Condensed";
+}
+h6 {
+  @include rfs(16px, font-size);
+  color: $jaune;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   header                                   */
+/* -------------------------------------------------------------------------- */
+nav {
+  &.primaire {
+    background-color: $jaune;
+  }
+}
+
+#search {
+  background-color: $jaune;
+}
+#icon_search {
+  &::before {
+    transform: rotateY(180deg);
+    color: rgb(118, 118, 118);
+  }
+}
+#marque {
+  font-family: "Barlow Semi Condensed";
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.panier {
+  &span {
+    position: absolute;
+  }
+}
+/* -------------------------------------------------------------------------- */
+/*                                    body                                    */
+/* -------------------------------------------------------------------------- */
+body {
+  font-family: "Barlow Semi Condensed";
+  background-color: white !important;
+}
+.btn {
+  font-family: "Barlow Semi Condensed";
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   splide                                   */
+/* -------------------------------------------------------------------------- */
+.splide {
+  width: 100%;
+}
+.splide__slide {
+  &img {
+    width: 100%;
+    height: auto;
+  }
+  .texte-slide p {
+    margin-bottom: -1rem;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   tooltip                                  */
+/* -------------------------------------------------------------------------- */
+.tooltip-inner {
+  background-color: black;
+  font-size: 1rem;
+  margin: 2rem;
+}
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: black !important;
+}
+.tooltip.bs-tooltip-left .arrow:before {
+  border-right-color: black !important;
+}
+.tooltip.bs-tooltip-bottom .arrow:before {
+  border-right-color: black !important;
+}
+.tooltip.bs-tooltip-top .arrow:before {
+  border-right-color: black !important;
+}
+.tooltip {
+  text-transform: uppercase;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   bouton                                   */
+/* -------------------------------------------------------------------------- */
+.btn {
+  text-transform: uppercase;
+}
